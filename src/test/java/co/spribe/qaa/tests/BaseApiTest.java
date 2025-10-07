@@ -1,3 +1,5 @@
+package co.spribe.qaa.tests;
+
 import co.spribe.qaa.api.PlayerApi;
 import co.spribe.qaa.api.impl.PlayerApiRest;
 import co.spribe.qaa.core.http.HttpClient;

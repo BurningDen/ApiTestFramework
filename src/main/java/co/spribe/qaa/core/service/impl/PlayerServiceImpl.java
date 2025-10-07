@@ -3,12 +3,9 @@ package co.spribe.qaa.core.service.impl;
 import co.spribe.qaa.api.PlayerApi;
 import co.spribe.qaa.core.service.PlayerService;
 import co.spribe.qaa.models.requests.CreatePlayerRequest;
-import co.spribe.qaa.models.requests.DeletePlayerRequest;
 import co.spribe.qaa.models.requests.GetPlayerByIdRequest;
-import co.spribe.qaa.models.requests.UpdatePlayerRequest;
 import co.spribe.qaa.models.responses.CreatePlayerResponse;
 import co.spribe.qaa.models.responses.GetPlayerByIdResponse;
-import io.restassured.response.Response;
 
 
 public final class PlayerServiceImpl implements PlayerService {

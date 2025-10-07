@@ -13,8 +13,8 @@ public final class Config {
     static {
         loadConfigFile(CONFIG_NAME);
         System.getProperties().forEach((k,v)-> properties.setProperty(k.toString(), v.toString()));
-        log.info("Config loaded:\nBase Url = {},\nTimeout Sec = {},\nThreads = {}",
-                baseUrl(), timeoutSec(), threads());
+        log.info("Config loaded:\nBase Url = {},\nTimeout Ms = {}\nThreads = {}",
+                baseUrl(), timeoutMs(), threads());
     }
 
     private static void loadConfigFile(String name){
@@ -35,10 +35,12 @@ public final class Config {
     public static String baseUrl(){
         return properties.getProperty("baseUrl","http://3.68.165.45");
     }
-    public static int timeoutSec(){
-        return Integer.parseInt(properties.getProperty("http.timeout.sec","10"));
+    public static int timeoutMs(){
+        return Integer.parseInt(properties.getProperty("http.timeout.ms","20000"));
     }
-    public static int threads(){
-        return Integer.parseInt(properties.getProperty("threads","3"));
+
+    public static int threads() {
+        return Integer.parseInt(properties.getProperty("threads", "3"));
     }
+
 }

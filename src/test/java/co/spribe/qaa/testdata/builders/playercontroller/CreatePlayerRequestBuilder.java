@@ -1,4 +1,4 @@
-package co.spribe.qaa.builders;
+package co.spribe.qaa.testdata.builders.playercontroller;
 
 import co.spribe.qaa.models.requests.CreatePlayerRequest;
 
