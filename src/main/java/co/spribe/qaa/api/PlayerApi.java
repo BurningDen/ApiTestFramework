@@ -1,10 +1,10 @@
 package co.spribe.qaa.api;
 
 
-import co.spr.qaa.models.requests.CreatePlayerRequest;
-import co.spr.qaa.models.requests.DeletePlayerRequest;
-import co.spr.qaa.models.requests.GetPlayerByIdRequest;
-import co.spr.qaa.models.requests.UpdatePlayerRequest;
+import co.spribe.qaa.models.requests.CreatePlayerRequest;
+import co.spribe.qaa.models.requests.DeletePlayerRequest;
+import co.spribe.qaa.models.requests.GetPlayerByIdRequest;
+import co.spribe.qaa.models.requests.UpdatePlayerRequest;
 import io.restassured.response.Response;
 
 public interface PlayerApi {

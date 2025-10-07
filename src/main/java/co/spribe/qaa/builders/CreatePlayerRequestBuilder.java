@@ -1,6 +1,6 @@
 package co.spribe.qaa.builders;
 
-import co.spr.qaa.models.requests.CreatePlayerRequest;
+import co.spribe.qaa.models.requests.CreatePlayerRequest;
 
 public final class CreatePlayerRequestBuilder {
 
