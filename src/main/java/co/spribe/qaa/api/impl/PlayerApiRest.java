@@ -11,11 +11,11 @@ import io.restassured.response.Response;
 import java.util.HashMap;
 import java.util.Map;
 
-public final class PlayerApiImpl implements PlayerApi {
+public final class PlayerApiRest implements PlayerApi {
 
     private final HttpClient http;
 
-    public PlayerApiImpl(HttpClient http) {
+    public PlayerApiRest(HttpClient http) {
         this.http = http;
     }
 
