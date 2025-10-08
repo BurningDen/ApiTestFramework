@@ -6,7 +6,7 @@ import io.qameta.allure.*;
 import org.testng.annotations.Test;
 import static org.testng.Assert.*;
 
-@Epic("Player API")
+@Epic("Player Controller API")
 @Feature("Get by id")
 public class GetPlayerByIdTests extends BasePlayerControllerApiTest {
 

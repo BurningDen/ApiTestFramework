@@ -2,8 +2,9 @@
 <suite name="Test Api Suite" verbose="2">
     <listeners>
         <listener class-name="co.spribe.qaa.listeners.SuiteThreadsListener"/>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
     </listeners>
-    <groups><run><exclude name="known_bug"/></run></groups>
+
     <test name="PlayerController">
         <packages>
             <package name="co.spribe.qaa.tests.playercontroller"/>

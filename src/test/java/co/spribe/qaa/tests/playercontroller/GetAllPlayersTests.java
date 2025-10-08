@@ -8,12 +8,9 @@ import io.qameta.allure.Issue;
 import io.qameta.allure.Story;
 import org.testng.annotations.Test;
 
-import java.util.HashSet;
-import java.util.Set;
-
 import static org.testng.Assert.*;
 
-@Epic("Player API")
+@Epic("Player Controller API")
 @Feature("Get all")
 public class GetAllPlayersTests extends BasePlayerControllerApiTest {
 

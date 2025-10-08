@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 
 import static org.testng.Assert.*;
 
-@Epic("Player API")
+@Epic("Player Controller API")
 @Feature("Role model")
 public class RoleModelTests extends BasePlayerControllerApiTest {
 
