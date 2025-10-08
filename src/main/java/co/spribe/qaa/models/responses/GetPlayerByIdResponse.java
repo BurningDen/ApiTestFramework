@@ -5,7 +5,7 @@ public class GetPlayerByIdResponse {
     public String login;
     public String screenName;
     public String role;
-    public Integer age;
+    public int age;
     public String gender;
     public String password;
 

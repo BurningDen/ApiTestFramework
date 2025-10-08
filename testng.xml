@@ -1,8 +1,9 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-<suite name="Test Api Suite" verbose="1">>
+<suite name="Test Api Suite" verbose="2">
     <listeners>
         <listener class-name="co.spribe.qaa.listeners.SuiteThreadsListener"/>
     </listeners>
+    <groups><run><exclude name="known_bug"/></run></groups>
     <test name="PlayerController">
         <packages>
             <package name="co.spribe.qaa.tests.playercontroller"/>

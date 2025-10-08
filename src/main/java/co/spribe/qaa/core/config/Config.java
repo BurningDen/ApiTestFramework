@@ -13,8 +13,6 @@ public final class Config {
     static {
         loadConfigFile(CONFIG_NAME);
         System.getProperties().forEach((k,v)-> properties.setProperty(k.toString(), v.toString()));
-        log.info("Config loaded:\nBase Url = {},\nTimeout Ms = {}\nThreads = {}",
-                baseUrl(), timeoutMs(), threads());
     }
 
     private static void loadConfigFile(String name){
